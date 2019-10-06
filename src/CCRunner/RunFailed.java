@@ -10,8 +10,7 @@ import cucumber.api.junit.Cucumber;
 				 glue = {"Chapter1_Tests"},
 				 dryRun = false,
 				 monochrome = false,
-				 plugin = { "pretty", "html:target/cucumber-report/single",
-					        "json:target/cucumber-report/single/rerun_cucumber.json"})
+				 format = { "pretty", "html:target/cucumber-report/single"})
 
 
 public class RunFailed {}

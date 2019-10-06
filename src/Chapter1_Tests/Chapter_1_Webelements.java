@@ -20,7 +20,7 @@ import cucumber.api.java.en.When;
 import logging.loggingLog4j;
 
 
-public class DropDowns {
+public class Chapter_1_Webelements {
 	
 	WebDriver driver = null;
 	int count=0;
@@ -55,11 +55,10 @@ public class DropDowns {
 		scr.GetScreenShot(driver, "Chapter1_main_Screen_"+sessionID);
 		driver.findElement(By.linkText("Chapter1")).click();
 		log.info("Clicking Chapter1 link");
-		String DBvalue = db.connectDB("select lastname from persons where personid = 1");
-		System.out.println("DB value is "+DBvalue);
-		
-		
+		//String DBvalue = db.connectDB("select lastname from persons where personid = 1");
+		//System.out.println("DB value is "+DBvalue);	
 	}
+	
 	
 	@When("^pick the dropdown and select Selenium Core option$")
 	public void pick_the_dropdown_and_select_Selenium_core_option() throws IOException
@@ -70,7 +69,7 @@ public class DropDowns {
 		List<WebElement> dropdown = select.getOptions();
 		for(WebElement ele : dropdown)
 		{
-			if(ele.getText().equals("Selenium ore"))
+			if(ele.getText().equals("Selenium Core"))
 			{
 				log.info("Selecting dropdown "+ele.getText());
 				select.selectByVisibleText(ele.getText());
@@ -80,6 +79,7 @@ public class DropDowns {
 			}
 		}
 	}
+	
 	
 	@When("^pick the dropdown and select below option$")
 	public void pick_the_dropdown_and_select_below_option(DataTable Dt) throws IOException
@@ -99,6 +99,42 @@ public class DropDowns {
 				count++;
 			}
 		}	
+	}
+	
+	
+	@When("^pick the dropdown and select below incorrect option$")
+	public void When_pick_the_dropdown_and_select_below_incorrect_option(DataTable dt) throws IOException
+	{
+		List<String> dropdownlist = dt.asList(String.class);
+		WebElement dropdownoption = driver.findElement(By.id("selecttype"));
+		Select select = new Select(dropdownoption);
+		List<WebElement> dropdown = select.getOptions();
+		for(WebElement ele : dropdown)
+		{
+			if(ele.getText().equals(dropdownlist.get(0)))
+			{
+				select.selectByVisibleText(ele.getText());
+				log.info(ele.getText()+ " Found on the webpage");
+			}
+			else
+			{
+				log.info(dropdownlist.get(0)+" not found");
+				count++;
+			}
+		}	
+		
+	}
+	
+	@When("^Click on the radio button$")
+	public void Click_on_the_radio_button()
+	{
+		WebElement radio = driver.findElement(By.id("radiobutton"));
+		if (radio.isEnabled() && radio.isDisplayed())
+		{
+			radio.click();
+			count++;
+		}
+		
 	}
 	
 	
