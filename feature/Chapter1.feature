@@ -16,8 +16,8 @@ Given Create driver instance and open the browser
 	Scenario: Testcase 2 - Testing the dropdown with user input
 	Given click on the Chapter1 page
 	When pick the dropdown and select below option
-			| Selenium RC |
-			| Selenium core |
+			|Selenium RC|
+			|Selenium core|
 	Then Check if the element is found or not
 	And close the browser
 #	

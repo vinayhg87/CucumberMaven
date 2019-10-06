@@ -70,7 +70,7 @@ public class DropDowns {
 		List<WebElement> dropdown = select.getOptions();
 		for(WebElement ele : dropdown)
 		{
-			if(ele.getText().equals("Selenium Core"))
+			if(ele.getText().equals("Selenium ore"))
 			{
 				log.info("Selecting dropdown "+ele.getText());
 				select.selectByVisibleText(ele.getText());
@@ -90,7 +90,7 @@ public class DropDowns {
 		List<WebElement> dropdown = select.getOptions();
 		for(WebElement ele : dropdown)
 		{
-			if(ele.getText().equals(dropdownoptionlist.get(1)))
+			if(ele.getText().equals(dropdownoptionlist.get(0)))
 			{
 				log.info("Selecting dropdown "+ele.getText());
 				select.selectByVisibleText(ele.getText());
@@ -110,15 +110,9 @@ public class DropDowns {
 			log.info("element found and test case passed");
 		}
 		else
-		{
-			try
-			{
-				throw new CucumberFailedException("element not found and test case failed");
-			}
-			catch(Exception e)
-			{
-				log.error(e);
-			}			
+		{		
+			log.info("element not found and test case Failed");
+			throw new CucumberFailedException("element not found and test case failed");		
 		}
 	}
 	

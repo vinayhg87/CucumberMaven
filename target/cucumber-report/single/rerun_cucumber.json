@@ -1,0 +1,202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "opening the browser and logging into the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6422107900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create driver instance and open the browser",
+            "match": {
+              "location": "DropDowns.Create_driver_instance_and_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Testcase 1 - Testing the dropdown",
+        "description": "",
+        "id": "this-feature-file-contains-the-test-scenarios-of-chapter1-screen;testcase-1---testing-the-dropdown",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 954668700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on the Chapter1 page",
+            "match": {
+              "location": "DropDowns.click_on_the_Chapter1_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86482800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "pick the dropdown and select Selenium Core option",
+            "match": {
+              "location": "DropDowns.pick_the_dropdown_and_select_Selenium_core_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 649700,
+              "error_message": "Exceptions.CucumberFailedException\r\n\tat Chapter1_Tests.DropDowns.Check_if_the_element_is_found_or_not(DropDowns.java:116)\r\n\tat ✽.Then Check if the element is found or not(feature/Chapter1.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "Check if the element is found or not",
+            "match": {
+              "location": "DropDowns.Check_if_the_element_is_found_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "DropDowns.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "opening the browser and logging into the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4806338400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create driver instance and open the browser",
+            "match": {
+              "location": "DropDowns.Create_driver_instance_and_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Testcase 2 - Testing the dropdown with user input",
+        "description": "",
+        "id": "this-feature-file-contains-the-test-scenarios-of-chapter1-screen;testcase-2---testing-the-dropdown-with-user-input",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 532562500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on the Chapter1 page",
+            "match": {
+              "location": "DropDowns.click_on_the_Chapter1_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 377008700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "pick the dropdown and select below option",
+            "match": {
+              "location": "DropDowns.pick_the_dropdown_and_select_below_option(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Selenium RC"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Selenium core"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368400,
+              "error_message": "Exceptions.CucumberFailedException\r\n\tat Chapter1_Tests.DropDowns.Check_if_the_element_is_found_or_not(DropDowns.java:111)\r\n\tat ✽.Then Check if the element is found or not(feature/Chapter1.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "Check if the element is found or not",
+            "match": {
+              "location": "DropDowns.Check_if_the_element_is_found_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "close the browser",
+            "match": {
+              "location": "DropDowns.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "This feature file contains the test scenarios of Chapter1 screen",
+    "description": "",
+    "id": "this-feature-file-contains-the-test-scenarios-of-chapter1-screen",
+    "keyword": "Feature",
+    "uri": "feature/Chapter1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]

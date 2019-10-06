@@ -9,7 +9,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "feature\\Chapter1.feature",
 				 glue = {"Chapter1_Tests"},
 				 dryRun = false,
-				 monochrome = false)
+				 monochrome = false,
+				 plugin={"pretty", "html:target/cucumber-report/single",
+						 "json:target/cucumber-report/single/cucumber.json",
+						 "rerun:rerun/failed_scenarios.txt"})
 
 
-public class CucumberRunner {}
+public class RunAll {}
