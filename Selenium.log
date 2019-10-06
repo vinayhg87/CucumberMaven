@@ -1,0 +1,137 @@
+INFO    2019-10-06 13:45:03,415 [main] DropDowns.class  - test1
+INFO    2019-10-06 13:45:03,420 [main] DropDowns.class  - test1
+INFO    2019-10-06 13:45:09,671 [main] DropDowns.class  - Test1
+INFO    2019-10-06 13:48:17,068 [main] DropDowns.class  - Test1
+INFO    2019-10-06 13:51:13,108 [main] DropDowns.class  - Execution started with session-id : 7035
+INFO    2019-10-06 13:51:18,458 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 13:52:14,682 [main] DropDowns.class  - Execution started with session-id : 7526
+INFO    2019-10-06 13:52:19,546 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 13:58:31,027 [main] DropDowns.class  - Execution started with session-id : 9847
+INFO    2019-10-06 13:58:35,863 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 13:58:37,680 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 13:58:37,680 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-06 13:58:37,770 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-06 13:58:38,070 [main] DropDowns.class  - Selenium CoreFound on the webpage
+INFO    2019-10-06 13:58:38,083 [main] DropDowns.class  - element found and test case passed
+ERROR   2019-10-06 13:58:38,083 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 13:59:21,572 [main] DropDowns.class  - Execution started with session-id : 1924
+INFO    2019-10-06 13:59:26,344 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 13:59:27,786 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 13:59:27,786 [main] DropDowns.class  - Fetching dropdown options
+ERROR   2019-10-06 13:59:27,889 [main] DropDowns.class  - element not found and test case failed
+ERROR   2019-10-06 13:59:27,889 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 13:59:29,012 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:00:24,886 [main] DropDowns.class  - Execution started with session-id : 5531
+INFO    2019-10-06 14:00:29,679 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:00:31,177 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:00:31,177 [main] DropDowns.class  - Fetching dropdown options
+ERROR   2019-10-06 14:00:31,280 [main] DropDowns.class  - element not found and test case failed
+ERROR   2019-10-06 14:00:31,281 [main] DropDowns.class  - Exceptions.CucumberFailedException
+INFO    2019-10-06 14:00:31,281 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:01:42,949 [main] DropDowns.class  - Execution started with session-id : 8519
+INFO    2019-10-06 14:01:43,245 [main] DropDowns.class  - Execution started with session-id : 9660
+INFO    2019-10-06 14:01:49,415 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:01:50,098 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:01:51,124 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:01:51,125 [main] DropDowns.class  - Fetching dropdown options
+ERROR   2019-10-06 14:01:51,282 [main] DropDowns.class  - Exceptions.CucumberFailedException
+INFO    2019-10-06 14:01:51,282 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:01:51,807 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:01:51,808 [main] DropDowns.class  - Fetching dropdown options
+ERROR   2019-10-06 14:01:51,978 [main] DropDowns.class  - Exceptions.CucumberFailedException
+INFO    2019-10-06 14:01:51,978 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:03:35,535 [main] DropDowns.class  - Execution started with session-id : 2821
+INFO    2019-10-06 14:03:40,489 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:03:42,204 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:03:42,205 [main] DropDowns.class  - Fetching dropdown options
+ERROR   2019-10-06 14:03:42,310 [main] DropDowns.class  - Exceptions.CucumberFailedException
+INFO    2019-10-06 14:03:42,310 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:04:18,810 [main] DropDowns.class  - Execution started with session-id : 3626
+INFO    2019-10-06 14:04:23,695 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:04:25,225 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:04:25,226 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-06 14:04:25,343 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-06 14:04:25,654 [main] DropDowns.class  - Selenium CoreFound on the webpage
+INFO    2019-10-06 14:04:25,667 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-06 14:04:25,668 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:04:47,591 [main] DropDowns.class  - Execution started with session-id : 6334
+INFO    2019-10-06 14:04:52,650 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:04:54,291 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:04:54,292 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-06 14:04:54,382 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-06 14:04:54,693 [main] DropDowns.class  - Selenium CoreFound on the webpage
+INFO    2019-10-06 14:04:54,705 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-06 14:04:54,705 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:05:37,987 [main] DropDowns.class  - Execution started with session-id : 4225
+INFO    2019-10-06 14:05:42,838 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:05:44,361 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:05:44,361 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-06 14:05:44,449 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-06 14:05:44,747 [main] DropDowns.class  - Selenium CoreFound on the webpage
+INFO    2019-10-06 14:05:44,759 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-06 14:05:44,760 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:15:42,383 [main] DropDowns.class  - Execution started with session-id : 4494
+INFO    2019-10-06 14:15:47,301 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:15:49,263 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:15:49,264 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-06 14:15:49,384 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-06 14:15:49,683 [main] DropDowns.class  - Selenium CoreFound on the webpage
+INFO    2019-10-06 14:15:49,694 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-06 14:15:49,695 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:15:50,836 [main] DropDowns.class  - Execution started with session-id : 7651
+INFO    2019-10-06 14:15:54,585 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:15:56,017 [main] DropDowns.class  - Clicking Chapter1 link
+ERROR   2019-10-06 14:15:56,020 [main] DropDowns.class  - Exceptions.CucumberFailedException
+INFO    2019-10-06 14:15:56,021 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:22:03,811 [main] DropDowns.class  - Execution started with session-id : 9314
+INFO    2019-10-06 14:22:08,736 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:22:10,525 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:22:10,525 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-06 14:22:10,621 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-06 14:22:10,928 [main] DropDowns.class  - Selenium CoreFound on the webpage
+INFO    2019-10-06 14:22:10,940 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-06 14:22:10,940 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:22:12,183 [main] DropDowns.class  - Execution started with session-id : 2674
+INFO    2019-10-06 14:22:15,909 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:22:17,328 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:22:17,420 [main] DropDowns.class  - Selecting dropdown Selenium RC
+INFO    2019-10-06 14:22:17,731 [main] DropDowns.class  - Selenium RCFound on the webpage
+INFO    2019-10-06 14:22:17,739 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-06 14:22:17,739 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:24:06,910 [main] DropDowns.class  - Execution started with session-id : 5303
+INFO    2019-10-06 14:24:11,802 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:24:13,325 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 14:24:13,325 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-06 14:24:13,427 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-06 14:24:13,730 [main] DropDowns.class  - Selenium Core Found on the webpage
+INFO    2019-10-06 14:24:13,742 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-06 14:24:13,742 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 14:24:14,868 [main] DropDowns.class  - Execution started with session-id : 5790
+INFO    2019-10-06 14:24:18,615 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 14:24:20,165 [main] DropDowns.class  - Clicking Chapter1 link
+ERROR   2019-10-06 14:24:20,242 [main] DropDowns.class  - Exceptions.CucumberFailedException
+INFO    2019-10-06 14:24:20,243 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 15:12:08,142 [main] DropDowns.class  - Execution started with session-id : 6308
+INFO    2019-10-06 15:12:13,846 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 15:12:15,691 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 15:12:16,079 [main] DropDowns.class  - Execution started with session-id : 6444
+INFO    2019-10-06 15:12:19,813 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 15:12:21,324 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 15:14:33,929 [main] DropDowns.class  - Execution started with session-id : 4981
+INFO    2019-10-06 15:14:38,741 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 15:14:40,305 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 15:14:40,912 [main] DropDowns.class  - Execution started with session-id : 3719
+INFO    2019-10-06 15:14:44,643 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 15:15:23,492 [main] DropDowns.class  - Execution started with session-id : 1128
+INFO    2019-10-06 15:15:28,327 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 15:15:29,743 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-06 15:15:30,260 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-06 15:15:30,342 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-06 15:15:30,639 [main] DropDowns.class  - Selenium Core Found on the webpage
+INFO    2019-10-06 15:15:30,652 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-06 15:15:30,652 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-06 15:15:31,788 [main] DropDowns.class  - Execution started with session-id : 9168
+INFO    2019-10-06 15:15:35,538 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-06 15:15:36,921 [main] DropDowns.class  - Clicking Chapter1 link
+ERROR   2019-10-06 15:15:37,081 [main] DropDowns.class  - Exceptions.CucumberFailedException
+INFO    2019-10-06 15:15:37,081 [main] DropDowns.class  - Closing the driver
