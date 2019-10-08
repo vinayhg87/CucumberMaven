@@ -1,12 +1,16 @@
 package Chapter1_Tests;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import Exceptions.CucumberFailedException;
@@ -30,19 +34,38 @@ public class Chapter_1_Webelements {
 	static loggingLog4j logging = new loggingLog4j();
 	Logger log = logging.log4jlogger("DropDowns.class");
 	ConnOracleDB db = new ConnOracleDB();
-	
-	static
-	{
-		String DriverPath = "/Users/vinay/IdeaProjects/CucumberProject/drivers/geckodriver";
-		System.setProperty("webdriver.gecko.driver", DriverPath);
-	}
+
 	
 	@Given("^Create driver instance and open the browser$")
-	public void Create_driver_instance_and_open_the_browser() throws InterruptedException
-	{
+	public void Create_driver_instance_and_open_the_browser() throws InterruptedException, IOException {
 		log.info("Execution started with session-id : "+sessionID);
+		String CurrDir = System.getProperty("user.dir");
+		String driverconfigProperties = CurrDir + File.separator + "driverConfig.properties";
+		Properties property = new Properties();
+		property.load(new FileInputStream((driverconfigProperties)));
 		String URL = "http://book.theautomatedtester.co.uk/";
-		driver = new FirefoxDriver();
+		String chromedriverFlag = property.getProperty("chromeBrowser");
+		String firefoxdriverFlag = property.getProperty("firefoxBrowser");
+		if (chromedriverFlag.equals("enabled"))
+		{
+			String ccdriver = property.getProperty("chromedriver");
+			String ChromeDriverPath = CurrDir + File.separator + "drivers" + File.separator + ccdriver;
+			System.setProperty("webdriver.chrome.driver", ChromeDriverPath);
+			driver = new ChromeDriver();
+		}
+		else if (firefoxdriverFlag.equals("enabled"))
+		{
+			String ffdriver = property.getProperty("firefoxdriver");
+			String FirefoxDriverPath = CurrDir + File.separator + "drivers" + File.separator + ffdriver;
+			System.setProperty("webdriver.gecko.driver", FirefoxDriverPath);
+			driver = new FirefoxDriver();
+		}
+		else
+		{
+			System.out.println("Error : Check if the parameter is correctly configured in driverConfig.properties file");
+			System.exit(1);
+		}
+
 		log.info("opening URL "+ URL);
 		driver.get(URL);
 		driver.manage().window().maximize();
