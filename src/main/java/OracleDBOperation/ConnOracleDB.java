@@ -13,7 +13,7 @@ import java.util.Properties;
 
 public class ConnOracleDB {
 	
-	public String connectDB(String sqlquery) throws ClassNotFoundException, SQLException, FileNotFoundException, IOException
+	public String connectDB(String sqlquery) throws ClassNotFoundException, SQLException, IOException
 	{
 		String Name = null;
 		String DBconnectionFile = System.getProperty("user.dir") + File.separator + "DBconnection.properties";
