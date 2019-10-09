@@ -565,3 +565,36 @@ INFO    2019-10-08 19:23:31,144 [main] DropDowns.class  - Clicking Chapter1 link
 INFO    2019-10-08 19:23:31,616 [main] DropDowns.class  - element found and test case passed
 INFO    2019-10-08 19:23:31,618 [main] DropDowns.class  - Closing the driver
 INFO    2019-10-08 19:24:11,705 [main] DropDowns.class  - Execution started with session-id : 6718
+INFO    2019-10-09 21:25:18,887 [main] DropDowns.class  - Execution started with session-id : 5694
+INFO    2019-10-09 21:25:19,250 [main] DropDowns.class  - Execution started with session-id : 5870
+INFO    2019-10-09 21:25:19,301 [main] DropDowns.class  - Execution started with session-id : 3758
+INFO    2019-10-09 21:25:19,329 [main] DropDowns.class  - Execution started with session-id : 1623
+INFO    2019-10-09 21:31:04,388 [main] DropDowns.class  - Execution started with session-id : 1206
+INFO    2019-10-09 21:31:10,137 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-09 21:31:12,718 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-09 21:31:12,720 [main] DropDowns.class  - Fetching dropdown options
+INFO    2019-10-09 21:31:12,813 [main] DropDowns.class  - Selecting dropdown Selenium Core
+INFO    2019-10-09 21:31:13,071 [main] DropDowns.class  - Selenium Core Found on the webpage
+INFO    2019-10-09 21:31:13,084 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-09 21:31:13,086 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-09 21:31:13,936 [main] DropDowns.class  - Execution started with session-id : 3978
+INFO    2019-10-09 21:31:17,159 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-09 21:31:19,230 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-09 21:31:19,321 [main] DropDowns.class  - Selecting dropdown Selenium RC
+INFO    2019-10-09 21:31:19,567 [main] DropDowns.class  - Selenium RC Found on the webpage
+INFO    2019-10-09 21:31:19,576 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-09 21:31:19,577 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-09 21:31:21,237 [main] DropDowns.class  - Execution started with session-id : 8058
+INFO    2019-10-09 21:31:24,515 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-09 21:31:27,092 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-09 21:31:27,388 [main] DropDowns.class  - Selenium RC1 not found
+INFO    2019-10-09 21:31:27,399 [main] DropDowns.class  - Selenium RC1 not found
+INFO    2019-10-09 21:31:27,406 [main] DropDowns.class  - Selenium RC1 not found
+INFO    2019-10-09 21:31:27,412 [main] DropDowns.class  - Selenium RC1 not found
+INFO    2019-10-09 21:31:27,414 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-09 21:31:27,416 [main] DropDowns.class  - Closing the driver
+INFO    2019-10-09 21:31:30,091 [main] DropDowns.class  - Execution started with session-id : 4567
+INFO    2019-10-09 21:31:33,477 [main] DropDowns.class  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-09 21:31:35,814 [main] DropDowns.class  - Clicking Chapter1 link
+INFO    2019-10-09 21:31:36,126 [main] DropDowns.class  - element found and test case passed
+INFO    2019-10-09 21:31:36,128 [main] DropDowns.class  - Closing the driver
