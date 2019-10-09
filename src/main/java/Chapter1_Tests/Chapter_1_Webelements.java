@@ -1,17 +1,13 @@
 package Chapter1_Tests;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.Properties;
+import Commons.DriverCaller;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import Exceptions.CucumberFailedException;
 import OracleDBOperation.ConnOracleDB;
@@ -25,69 +21,25 @@ import logging.loggingLog4j;
 
 
 public class Chapter_1_Webelements {
-	
-	public WebDriver driver = null;
+
 	public int count=0;
+	DriverCaller caller = new DriverCaller();
+	public WebDriver driver = caller.browserDriver();
 	GetScreenShots scr = new GetScreenShots();
 	public int tempSessionID = (int)(Math.random()*9999);
 	public String sessionID = Integer.toString(tempSessionID);
 	public static loggingLog4j logging = new loggingLog4j();
-	public Logger log = logging.log4jlogger("DropDowns.class");
+	public Logger log = logging.log4jlogger("Chapter_1_Webelements");
 	ConnOracleDB db = new ConnOracleDB();
 
-	
+	public Chapter_1_Webelements() throws IOException {
+	}
+
+
 	@Given("^Create driver instance and open the browser$")
 	public void Create_driver_instance_and_open_the_browser() throws InterruptedException, IOException {
 		log.info("Execution started with session-id : "+sessionID);
-		String CurrDir = System.getProperty("user.dir");
-		String osInfo = System.getProperty("os.name");
-		String driverConfigProperties = CurrDir + File.separator + "driverConfig.properties";
-		Properties property = new Properties();
-		property.load(new FileInputStream((driverConfigProperties)));
 		String URL = "http://book.theautomatedtester.co.uk/";
-		String chromedriverFlag = property.getProperty("chromeBrowser");
-		String firefoxdriverFlag = property.getProperty("firefoxBrowser");
-		System.out.println("Tests are running on "+osInfo);
-		if (chromedriverFlag.equals("enabled"))
-		{
-			if(osInfo.contains("Mac"))
-			{
-				String ccdriver = property.getProperty("firefoxdriver_mac");
-				String ChromeDriverPath = CurrDir + File.separator + "drivers" + File.separator + ccdriver;
-				System.setProperty("webdriver.chrome.driver", ChromeDriverPath);
-				driver = new ChromeDriver();
-			}
-			else
-			{
-				String ccdriver = property.getProperty("firefoxdriver_win");
-				String ChromeDriverPath = CurrDir + File.separator + "drivers" + File.separator + ccdriver;
-				System.setProperty("webdriver.chrome.driver", ChromeDriverPath);
-				driver = new ChromeDriver();
-			}
-		}
-		else if (firefoxdriverFlag.equals("enabled"))
-		{
-			if(osInfo.contains("Mac"))
-			{
-				String ffdriver = property.getProperty("firefoxdriver_mac");
-				String FirefoxDriverPath = CurrDir + File.separator + "drivers" + File.separator + ffdriver;
-				System.setProperty("webdriver.gecko.driver", FirefoxDriverPath);
-				driver = new FirefoxDriver();
-			}
-			else
-			{
-				String ffdriver = property.getProperty("firefoxdriver_win");
-				String FirefoxDriverPath = CurrDir + File.separator + "drivers" + File.separator + ffdriver;
-				System.setProperty("webdriver.gecko.driver", FirefoxDriverPath);
-				driver = new FirefoxDriver();
-			}
-		}
-		else
-		{
-			System.out.println("Error : Check if the parameter is correctly configured in driverConfig.properties file");
-			System.exit(1);
-		}
-
 		log.info("opening URL "+ URL);
 		driver.get(URL);
 		driver.manage().window().maximize();
