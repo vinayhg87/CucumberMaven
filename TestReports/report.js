@@ -21,14 +21,14 @@ formatter.background({
 });
 formatter.step({
   "line": 4,
-  "name": "Create driver instance and open the browser",
+  "name": "Create driver instance and open the browser for Chapter1 page",
   "keyword": "Given "
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 6888701193,
+  "duration": 6995742900,
   "status": "passed"
 });
 formatter.scenario({
@@ -69,28 +69,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 668650020,
+  "duration": 415840100,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.pick_the_dropdown_and_select_Selenium_core_option()"
 });
 formatter.result({
-  "duration": 351089758,
+  "duration": 429706200,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 139399,
+  "duration": 94400,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 630848637,
+  "duration": 1007144800,
   "status": "passed"
 });
 formatter.background({
@@ -102,14 +102,14 @@ formatter.background({
 });
 formatter.step({
   "line": 4,
-  "name": "Create driver instance and open the browser",
+  "name": "Create driver instance and open the browser for Chapter1 page",
   "keyword": "Given "
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 6148321478,
+  "duration": 4877309300,
   "status": "passed"
 });
 formatter.scenario({
@@ -164,28 +164,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 748830125,
+  "duration": 352881200,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.pick_the_dropdown_and_select_below_option(DataTable)"
 });
 formatter.result({
-  "duration": 384553615,
+  "duration": 321480400,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 241120,
+  "duration": 96300,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 3269485981,
+  "duration": 985305000,
   "status": "passed"
 });
 formatter.background({
@@ -197,14 +197,14 @@ formatter.background({
 });
 formatter.step({
   "line": 4,
-  "name": "Create driver instance and open the browser",
+  "name": "Create driver instance and open the browser for Chapter1 page",
   "keyword": "Given "
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 7897471126,
+  "duration": 4346086400,
   "status": "passed"
 });
 formatter.scenario({
@@ -253,28 +253,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 901468037,
+  "duration": 344399900,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.When_pick_the_dropdown_and_select_below_incorrect_option(DataTable)"
 });
 formatter.result({
-  "duration": 216951021,
+  "duration": 76328400,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 1088379,
+  "duration": 107800,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 2432431525,
+  "duration": 897291400,
   "status": "passed"
 });
 formatter.background({
@@ -286,14 +286,14 @@ formatter.background({
 });
 formatter.step({
   "line": 4,
-  "name": "Create driver instance and open the browser",
+  "name": "Create driver instance and open the browser for Chapter1 page",
   "keyword": "Given "
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 7685268436,
+  "duration": 4433700900,
   "status": "passed"
 });
 formatter.scenario({
@@ -334,28 +334,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 875758736,
+  "duration": 348717700,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Click_on_the_radio_button()"
 });
 formatter.result({
-  "duration": 323066464,
+  "duration": 265212400,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 323165,
+  "duration": 153300,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 2441535722,
+  "duration": 1040432800,
   "status": "passed"
 });
 formatter.uri("feature/Chapter2.feature");
@@ -373,29 +373,29 @@ formatter.feature({
   ]
 });
 formatter.background({
-  "line": 3,
+  "line": 4,
   "name": "opening the browser and logging into the application",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 4,
-  "name": "Create driver instance and open the browser",
+  "line": 5,
+  "name": "Create driver instance and open the browser for Chapter2 page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
+  "location": "Chapter_2_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 6524440751,
+  "duration": 4446406100,
   "status": "passed"
 });
 formatter.scenario({
   "line": 8,
-  "name": "TestCase 1 - Clicking on button - \u0027Button with name\u0027",
+  "name": "TestCase 1 - Clicking on button:Button with name",
   "description": "",
-  "id": "this-feature-file-contains-the-test-scenarios-of-chapter2-screen;testcase-1---clicking-on-button---\u0027button-with-name\u0027",
+  "id": "this-feature-file-contains-the-test-scenarios-of-chapter2-screen;testcase-1---clicking-on-button:button-with-name",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -412,43 +412,45 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
-  "name": "pick the dropdown and select Selenium Core option",
+  "name": "Check if it is enabled or not and click on the button",
   "keyword": "When "
 });
 formatter.step({
   "line": 11,
-  "name": "Check if the element is found or not",
+  "name": "Check if the element is found or not of chapter2",
   "keyword": "Then "
 });
 formatter.step({
   "line": 12,
-  "name": "close the browser",
+  "name": "close the browser of chapter2",
   "keyword": "And "
 });
 formatter.match({
   "location": "Chapter_2_Webelements.click_on_the_Chapter2_page()"
 });
 formatter.result({
-  "duration": 6112564488,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: Chapter2\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.5\u0027, revision: \u0027d54ebd709a\u0027, time: \u00272018-11-06T11:42:16\u0027\nSystem info: host: \u0027Vinays-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:189b:c21f:2eaf:24cd%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 1999, moz:profile: /var/folders/9m/52tx9p6x4sl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.0.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: bf843a27-c793-7148-9bdc-dfb3b7ea4251\n*** Element info: {Using\u003dlink text, value\u003dChapter2}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat Chapter2_Tests.Chapter_2_Webelements.click_on_the_Chapter2_page(Chapter_2_Webelements.java:33)\n\tat ✽.Given click on the Chapter2 page(feature/Chapter2.feature:9)\n",
-  "status": "failed"
+  "duration": 3319529900,
+  "status": "passed"
 });
 formatter.match({
-  "location": "Chapter_1_Webelements.pick_the_dropdown_and_select_Selenium_core_option()"
+  "location": "Chapter_2_Webelements.Check_if_it_is_enabled_or_not_and_click_on_the_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 263393700,
+  "status": "passed"
 });
 formatter.match({
-  "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
+  "location": "Chapter_2_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 106800,
+  "status": "passed"
 });
 formatter.match({
-  "location": "Chapter_1_Webelements.close_the_browser()"
+  "location": "Chapter_2_Webelements.close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 937668800,
+  "status": "passed"
 });
 });

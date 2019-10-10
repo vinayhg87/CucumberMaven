@@ -1,7 +1,7 @@
 @tag
 Feature: This feature file contains the test scenarios of Chapter1 screen
 Background: opening the browser and logging into the application
-Given Create driver instance and open the browser
+Given Create driver instance and open the browser for Chapter1 page
 
 		
 	@tag1
