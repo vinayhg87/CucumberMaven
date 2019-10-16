@@ -1,7 +1,7 @@
 package CCRunner;
 
 /* To execute the tests from this junit file in cmd prompt use the below maven command, Same command will be configured in jenkins. 
- * mvn test -Dtest=RunAll test -DfailIfNoTests=false */
+ * mvn test -Dtest=RunAll -DfailIfNoTests=false */
 
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;

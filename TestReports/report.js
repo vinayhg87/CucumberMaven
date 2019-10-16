@@ -28,7 +28,7 @@ formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 5755740399,
+  "duration": 5618929400,
   "status": "passed"
 });
 formatter.scenario({
@@ -69,29 +69,29 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 352859900,
+  "duration": 354638100,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.pick_the_dropdown_and_select_Selenium_core_option()"
 });
 formatter.result({
-  "duration": 320636900,
+  "duration": 80698701,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 89201,
-  "status": "passed"
+  "duration": 567500,
+  "error_message": "Exceptions.CucumberFailedException\r\n\tat Chapter1_Tests.Chapter_1_Webelements.Check_if_the_element_is_found_or_not(Chapter_1_Webelements.java:148)\r\n\tat ✽.Then Check if the element is found or not(feature/Chapter1.feature:11)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 906184899,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "line": 3,
@@ -109,7 +109,7 @@ formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 3844814099,
+  "duration": 4871561099,
   "status": "passed"
 });
 formatter.scenario({
@@ -164,28 +164,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 341652699,
+  "duration": 409509500,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.pick_the_dropdown_and_select_below_option(DataTable)"
 });
 formatter.result({
-  "duration": 307285900,
+  "duration": 346334300,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 123200,
+  "duration": 95101,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 906819601,
+  "duration": 1326192400,
   "status": "passed"
 });
 formatter.background({
@@ -204,7 +204,7 @@ formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 4357539600,
+  "duration": 4391047099,
   "status": "passed"
 });
 formatter.scenario({
@@ -253,28 +253,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 369516699,
+  "duration": 359288399,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.When_pick_the_dropdown_and_select_below_incorrect_option(DataTable)"
 });
 formatter.result({
-  "duration": 80786799,
+  "duration": 79680701,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 113700,
+  "duration": 123600,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 1142425800,
+  "duration": 898922199,
   "status": "passed"
 });
 formatter.background({
@@ -293,7 +293,7 @@ formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 4329810900,
+  "duration": 4505035299,
   "status": "passed"
 });
 formatter.scenario({
@@ -334,28 +334,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 520805300,
+  "duration": 356185899,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Click_on_the_radio_button()"
 });
 formatter.result({
-  "duration": 247064600,
+  "duration": 262755700,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 120200,
+  "duration": 162400,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 901334000,
+  "duration": 931035399,
   "status": "passed"
 });
 formatter.uri("feature/Chapter2.feature");
@@ -388,7 +388,7 @@ formatter.match({
   "location": "Chapter_2_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 3891175700,
+  "duration": 4360291100,
   "status": "passed"
 });
 formatter.scenario({
@@ -429,28 +429,28 @@ formatter.match({
   "location": "Chapter_2_Webelements.click_on_the_Chapter2_page()"
 });
 formatter.result({
-  "duration": 3323118401,
+  "duration": 3306800200,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_2_Webelements.Check_if_it_is_enabled_or_not_and_click_on_the_button()"
 });
 formatter.result({
-  "duration": 262407000,
+  "duration": 270983899,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_2_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 178200,
+  "duration": 140700,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_2_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 898720100,
+  "duration": 905127900,
   "status": "passed"
 });
 });
