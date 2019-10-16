@@ -801,3 +801,139 @@ INFO    2019-10-10 14:22:35,060 [main] Chapter_2_Webelements  - opening URL http
 INFO    2019-10-10 14:22:39,054 [main] Chapter_2_Webelements  - Clicking Chapter2 link
 INFO    2019-10-10 14:22:39,319 [main] Chapter_2_Webelements  - element found and test case passed
 INFO    2019-10-10 14:22:39,320 [main] Chapter_2_Webelements  - Closing the driver
+INFO    2019-10-10 16:20:15,593 [main] Chapter_1_Webelements  - Execution started with session-id : 8045
+INFO    2019-10-10 16:20:15,595 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-10 16:20:17,220 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-10 16:20:17,221 [main] Chapter_1_Webelements  - Fetching dropdown options
+INFO    2019-10-10 16:20:17,340 [main] Chapter_1_Webelements  - Selecting dropdown Selenium Core
+INFO    2019-10-10 16:20:17,594 [main] Chapter_1_Webelements  - Selenium Core Found on the webpage
+INFO    2019-10-10 16:20:17,610 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-10 16:20:17,612 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-10 16:20:22,724 [main] Chapter_1_Webelements  - Execution started with session-id : 3458
+INFO    2019-10-10 16:20:22,724 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-10 16:20:23,821 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-10 16:20:23,902 [main] Chapter_1_Webelements  - Selecting dropdown Selenium RC
+INFO    2019-10-10 16:20:24,139 [main] Chapter_1_Webelements  - Selenium RC Found on the webpage
+INFO    2019-10-10 16:20:24,146 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-10 16:20:24,147 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-10 16:20:29,507 [main] Chapter_1_Webelements  - Execution started with session-id : 8587
+INFO    2019-10-10 16:20:29,507 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-10 16:20:30,586 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-10 16:20:30,645 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-10 16:20:30,654 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-10 16:20:30,661 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-10 16:20:30,667 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-10 16:20:30,667 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-10 16:20:30,668 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-10 16:20:35,982 [main] Chapter_1_Webelements  - Execution started with session-id : 3091
+INFO    2019-10-10 16:20:35,983 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-10 16:20:37,070 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-10 16:20:37,348 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-10 16:20:37,349 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-10 16:20:42,213 [main] Chapter_2_Webelements  - Execution started with session-id : 6087
+INFO    2019-10-10 16:20:42,214 [main] Chapter_2_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-10 16:20:46,297 [main] Chapter_2_Webelements  - Clicking Chapter2 link
+INFO    2019-10-10 16:20:46,579 [main] Chapter_2_Webelements  - element found and test case passed
+INFO    2019-10-10 16:20:46,580 [main] Chapter_2_Webelements  - Closing the driver
+INFO    2019-10-16 12:13:41,433 [main] Chapter_1_Webelements  - Execution started with session-id : 1026
+INFO    2019-10-16 12:13:41,434 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:13:43,038 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:13:43,039 [main] Chapter_1_Webelements  - Fetching dropdown options
+INFO    2019-10-16 12:13:43,155 [main] Chapter_1_Webelements  - Selecting dropdown Selenium Core
+INFO    2019-10-16 12:13:43,403 [main] Chapter_1_Webelements  - Selenium Core Found on the webpage
+INFO    2019-10-16 12:13:43,418 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:13:43,419 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:13:48,342 [main] Chapter_1_Webelements  - Execution started with session-id : 4004
+INFO    2019-10-16 12:13:48,342 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:13:49,379 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:13:49,468 [main] Chapter_1_Webelements  - Selecting dropdown Selenium RC
+INFO    2019-10-16 12:13:49,721 [main] Chapter_1_Webelements  - Selenium RC Found on the webpage
+INFO    2019-10-16 12:13:49,728 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:13:49,729 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:13:55,051 [main] Chapter_1_Webelements  - Execution started with session-id : 8830
+INFO    2019-10-16 12:13:55,051 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:13:56,145 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:13:56,205 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:13:56,214 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:13:56,225 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:13:56,234 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:13:56,236 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:13:56,237 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:14:00,963 [main] Chapter_1_Webelements  - Execution started with session-id : 1703
+INFO    2019-10-16 12:14:00,963 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:14:01,980 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:14:02,243 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:14:02,243 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:14:06,409 [main] Chapter_2_Webelements  - Execution started with session-id : 8338
+INFO    2019-10-16 12:14:06,410 [main] Chapter_2_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:14:10,390 [main] Chapter_2_Webelements  - Clicking Chapter2 link
+INFO    2019-10-16 12:14:10,663 [main] Chapter_2_Webelements  - element found and test case passed
+INFO    2019-10-16 12:14:10,664 [main] Chapter_2_Webelements  - Closing the driver
+INFO    2019-10-16 12:18:55,429 [main] Chapter_1_Webelements  - Execution started with session-id : 1751
+INFO    2019-10-16 12:18:55,430 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:18:56,715 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:18:56,716 [main] Chapter_1_Webelements  - Fetching dropdown options
+INFO    2019-10-16 12:18:56,806 [main] Chapter_1_Webelements  - Selecting dropdown Selenium Core
+INFO    2019-10-16 12:18:57,050 [main] Chapter_1_Webelements  - Selenium Core Found on the webpage
+INFO    2019-10-16 12:18:57,063 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:18:57,063 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:19:01,784 [main] Chapter_1_Webelements  - Execution started with session-id : 1092
+INFO    2019-10-16 12:19:01,785 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:19:02,831 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:19:02,906 [main] Chapter_1_Webelements  - Selecting dropdown Selenium RC
+INFO    2019-10-16 12:19:03,146 [main] Chapter_1_Webelements  - Selenium RC Found on the webpage
+INFO    2019-10-16 12:19:03,152 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:19:03,153 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:19:07,327 [main] Chapter_1_Webelements  - Execution started with session-id : 6579
+INFO    2019-10-16 12:19:07,327 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:19:08,572 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:19:08,620 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:19:08,628 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:19:08,638 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:19:08,646 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:19:08,647 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:19:08,648 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:19:13,037 [main] Chapter_1_Webelements  - Execution started with session-id : 6487
+INFO    2019-10-16 12:19:13,037 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:19:14,073 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:19:14,336 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:19:14,336 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:19:19,008 [main] Chapter_2_Webelements  - Execution started with session-id : 8479
+INFO    2019-10-16 12:19:19,009 [main] Chapter_2_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:19:22,988 [main] Chapter_2_Webelements  - Clicking Chapter2 link
+INFO    2019-10-16 12:19:23,264 [main] Chapter_2_Webelements  - element found and test case passed
+INFO    2019-10-16 12:19:23,265 [main] Chapter_2_Webelements  - Closing the driver
+INFO    2019-10-16 12:29:29,492 [main] Chapter_1_Webelements  - Execution started with session-id : 9817
+INFO    2019-10-16 12:29:29,493 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:29:30,823 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:29:30,825 [main] Chapter_1_Webelements  - Fetching dropdown options
+INFO    2019-10-16 12:29:30,902 [main] Chapter_1_Webelements  - Selecting dropdown Selenium Core
+INFO    2019-10-16 12:29:31,136 [main] Chapter_1_Webelements  - Selenium Core Found on the webpage
+INFO    2019-10-16 12:29:31,146 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:29:31,146 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:29:35,261 [main] Chapter_1_Webelements  - Execution started with session-id : 9188
+INFO    2019-10-16 12:29:35,261 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:29:36,243 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:29:36,317 [main] Chapter_1_Webelements  - Selecting dropdown Selenium RC
+INFO    2019-10-16 12:29:36,547 [main] Chapter_1_Webelements  - Selenium RC Found on the webpage
+INFO    2019-10-16 12:29:36,552 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:29:36,553 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:29:41,158 [main] Chapter_1_Webelements  - Execution started with session-id : 1136
+INFO    2019-10-16 12:29:41,158 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:29:42,190 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:29:42,251 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:29:42,258 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:29:42,263 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:29:42,272 [main] Chapter_1_Webelements  - Selenium RC1 not found
+INFO    2019-10-16 12:29:42,273 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:29:42,273 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:29:47,116 [main] Chapter_1_Webelements  - Execution started with session-id : 9266
+INFO    2019-10-16 12:29:47,116 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:29:48,268 [main] Chapter_1_Webelements  - Clicking Chapter1 link
+INFO    2019-10-16 12:29:48,517 [main] Chapter_1_Webelements  - element found and test case passed
+INFO    2019-10-16 12:29:48,518 [main] Chapter_1_Webelements  - Closing the driver
+INFO    2019-10-16 12:29:52,640 [main] Chapter_2_Webelements  - Execution started with session-id : 910
+INFO    2019-10-16 12:29:52,640 [main] Chapter_2_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-10-16 12:29:56,635 [main] Chapter_2_Webelements  - Clicking Chapter2 link
+INFO    2019-10-16 12:29:56,900 [main] Chapter_2_Webelements  - element found and test case passed
+INFO    2019-10-16 12:29:56,900 [main] Chapter_2_Webelements  - Closing the driver
