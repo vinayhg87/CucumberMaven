@@ -6,4 +6,5 @@ CCRunner\RunFailed.class
 CCRunner\RunAll.class
 Commons\DriverCaller.class
 Exceptions\CucumberFailedException.class
+PageWebElements\Chapter1_WebElements.class
 logging\loggingLog4j.class

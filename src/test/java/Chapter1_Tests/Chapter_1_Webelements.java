@@ -5,12 +5,12 @@ import java.sql.SQLException;
 import java.util.List;
 import Commons.DriverCaller;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import Exceptions.CucumberFailedException;
 import OracleDBOperation.ConnOracleDB;
+import PageWebElements.Chapter1_WebElements;
 import Screenshots.GetScreenShots;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
@@ -31,6 +31,7 @@ public class Chapter_1_Webelements {
 	public static loggingLog4j logging = new loggingLog4j();
 	public Logger log = logging.log4jlogger("Chapter_1_Webelements");
 	ConnOracleDB db = new ConnOracleDB();
+	Chapter1_WebElements webelement = new Chapter1_WebElements(driver);
 
 	public Chapter_1_Webelements() throws IOException {
 	}
@@ -50,7 +51,7 @@ public class Chapter_1_Webelements {
 	public void click_on_the_Chapter1_page() throws IOException, ClassNotFoundException, SQLException
 	{
 		//scr.GetScreenShot(driver, "Chapter1_main_Screen_"+sessionID);
-		driver.findElement(By.linkText("Chapter1")).click();
+		webelement.Chapter1_link.click();
 		log.info("Clicking Chapter1 link");
 		//String DBvalue = db.connectDB("select lastname from persons where personid = 1");
 		//System.out.println("DB value is "+DBvalue);	
@@ -61,7 +62,7 @@ public class Chapter_1_Webelements {
 	public void pick_the_dropdown_and_select_Selenium_core_option() throws IOException
 	{
 		log.info("Fetching dropdown options");
-		WebElement dropdownoption = driver.findElement(By.id("selecttype"));
+		WebElement dropdownoption = webelement.dropdown;
 		Select select = new Select(dropdownoption);
 		List<WebElement> dropdown = select.getOptions();
 		for(WebElement ele : dropdown)
@@ -82,7 +83,7 @@ public class Chapter_1_Webelements {
 	public void pick_the_dropdown_and_select_below_option(DataTable Dt) throws IOException
 	{
 		List<String> dropdownoptionlist = Dt.asList(String.class);
-		WebElement dropdownoption = driver.findElement(By.id("selecttype"));
+		WebElement dropdownoption = webelement.dropdown;
 		Select select = new Select(dropdownoption);
 		List<WebElement> dropdown = select.getOptions();
 		for(WebElement ele : dropdown)
@@ -103,7 +104,7 @@ public class Chapter_1_Webelements {
 	public void When_pick_the_dropdown_and_select_below_incorrect_option(DataTable dt) throws IOException
 	{
 		List<String> dropdownlist = dt.asList(String.class);
-		WebElement dropdownoption = driver.findElement(By.id("selecttype"));
+		WebElement dropdownoption = webelement.dropdown;
 		Select select = new Select(dropdownoption);
 		List<WebElement> dropdown = select.getOptions();
 		for(WebElement ele : dropdown)
@@ -118,20 +119,18 @@ public class Chapter_1_Webelements {
 				log.info(dropdownlist.get(0)+" not found");
 				count++;
 			}
-		}	
-		
+		}			
 	}
 	
 	@When("^Click on the radio button$")
 	public void Click_on_the_radio_button()
 	{
-		WebElement radio = driver.findElement(By.id("radiobutton"));
+		WebElement radio = webelement.radioButton;
 		if (radio.isEnabled() && radio.isDisplayed())
 		{
 			radio.click();
 			count++;
-		}
-		
+		}		
 	}
 	
 	
