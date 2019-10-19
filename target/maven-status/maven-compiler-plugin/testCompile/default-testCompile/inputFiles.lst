@@ -1,9 +1,10 @@
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\Exceptions\CucumberFailedException.java
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\logging\loggingLog4j.java
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\Screenshots\GetScreenShots.java
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\Commons\DriverCaller.java
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\Chapter1_Tests\Chapter_1_Webelements.java
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\Chapter2_Tests\Chapter_2_Webelements.java
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\CCRunner\RunAll.java
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\CCRunner\RunFailed.java
-C:\Users\VinayVinay\Desktop\Vinay Docs\Eclipse\CucumberMvnProject\CucumberMaven\src\test\java\OracleDBOperation\ConnOracleDB.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/CCRunner/RunFailed.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/PageWebElements/Chapter1_WebElements.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/Commons/DriverCaller.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/CCRunner/RunAll.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/logging/loggingLog4j.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/Screenshots/GetScreenShots.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/OracleDBOperation/ConnOracleDB.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/Chapter2_Tests/Chapter_2_Webelements.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/Chapter1_Tests/Chapter_1_Webelements.java
+/Users/vinay/IdeaProjects/CucumberProject/src/test/java/Exceptions/CucumberFailedException.java

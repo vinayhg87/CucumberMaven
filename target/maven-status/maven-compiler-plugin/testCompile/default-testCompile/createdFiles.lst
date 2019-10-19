@@ -1,10 +1,1 @@
-Chapter2_Tests\Chapter_2_Webelements.class
-OracleDBOperation\ConnOracleDB.class
-Screenshots\GetScreenShots.class
-Chapter1_Tests\Chapter_1_Webelements.class
-CCRunner\RunFailed.class
-CCRunner\RunAll.class
-Commons\DriverCaller.class
-Exceptions\CucumberFailedException.class
-PageWebElements\Chapter1_WebElements.class
-logging\loggingLog4j.class
+PageWebElements/Chapter1_WebElements.class
