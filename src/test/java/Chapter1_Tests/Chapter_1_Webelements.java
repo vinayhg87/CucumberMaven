@@ -55,8 +55,8 @@ public class Chapter_1_Webelements {
 		//scr.GetScreenShot(driver, "Chapter1_main_Screen_"+sessionID);
 		webelement.Chapter1_link.click();
 		log.info("Clicking Chapter1 link");
-		//String DBvalue = db.connectDB("select lastname from persons where personid = 1");
-		//System.out.println("DB value is "+DBvalue);	
+		String DBvalue = db.connectDB("select lastname from persons where personid = 1");
+		System.out.println("DB value is "+DBvalue);	
 	}
 	
 	
@@ -76,7 +76,7 @@ public class Chapter_1_Webelements {
 				select.selectByVisibleText(ele.getText());
 				//scr.GetScreenShot(driver, "Chapter1_DropDown_"+sessionID);
 				log.info(ele.getText()+ " Found on the webpage");
-				excel.ExcelWrite("Sheet1",0,1,"PASS");
+				excel.ExcelWrite("Sheet1",1,1,"PASS");
 				count++;
 			}
 		}
