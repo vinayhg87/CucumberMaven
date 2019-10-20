@@ -1,1 +1,11 @@
 PageWebElements/Chapter1_WebElements.class
+CCRunner/RunFailed.class
+Chapter1_Tests/Chapter_1_Webelements.class
+Commons/DriverCaller.class
+logging/loggingLog4j.class
+OracleDBOperation/ConnOracleDB.class
+ExcelOperation/ExcelData.class
+Exceptions/CucumberFailedException.class
+Chapter2_Tests/Chapter_2_Webelements.class
+Screenshots/GetScreenShots.class
+CCRunner/RunAll.class

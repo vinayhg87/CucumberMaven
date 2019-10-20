@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 import Commons.DriverCaller;
+import ExcelOperation.ExcelData;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,6 +33,7 @@ public class Chapter_1_Webelements {
 	public Logger log = logging.log4jlogger("Chapter_1_Webelements");
 	ConnOracleDB db = new ConnOracleDB();
 	Chapter1_WebElements webelement = new Chapter1_WebElements(driver);
+	ExcelData excel = new ExcelData();
 
 	public Chapter_1_Webelements() throws IOException {
 	}
@@ -65,14 +67,16 @@ public class Chapter_1_Webelements {
 		WebElement dropdownoption = webelement.dropdown;
 		Select select = new Select(dropdownoption);
 		List<WebElement> dropdown = select.getOptions();
+		String ExData = excel.ExcelRead("Sheet1",0,0);
 		for(WebElement ele : dropdown)
 		{
-			if(ele.getText().equals("Selenium Core"))
+			if(ele.getText().equals(ExData))
 			{
 				log.info("Selecting dropdown "+ele.getText());
 				select.selectByVisibleText(ele.getText());
 				//scr.GetScreenShot(driver, "Chapter1_DropDown_"+sessionID);
 				log.info(ele.getText()+ " Found on the webpage");
+				excel.ExcelWrite("Sheet1",0,1,"PASS");
 				count++;
 			}
 		}

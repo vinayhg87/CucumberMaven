@@ -28,7 +28,7 @@ formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 7768253414,
+  "duration": 8733234540,
   "status": "passed"
 });
 formatter.scenario({
@@ -69,28 +69,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 533192741,
+  "duration": 778201021,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.pick_the_dropdown_and_select_Selenium_core_option()"
 });
 formatter.result({
-  "duration": 639299761,
+  "duration": 428179208,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 143048,
+  "duration": 142980,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 1776760251,
+  "duration": 2806915396,
   "status": "passed"
 });
 formatter.background({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 4689652293,
+  "duration": 5038770262,
   "status": "passed"
 });
 formatter.scenario({
@@ -164,28 +164,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 618426821,
+  "duration": 630569338,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.pick_the_dropdown_and_select_below_option(DataTable)"
 });
 formatter.result({
-  "duration": 359693496,
+  "duration": 363835967,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 248425,
+  "duration": 128741,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 729879061,
+  "duration": 1781591865,
   "status": "passed"
 });
 formatter.background({
@@ -204,7 +204,7 @@ formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 5023704049,
+  "duration": 5239319460,
   "status": "passed"
 });
 formatter.scenario({
@@ -253,28 +253,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 342208117,
+  "duration": 741240827,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.When_pick_the_dropdown_and_select_below_incorrect_option(DataTable)"
 });
 formatter.result({
-  "duration": 293347716,
+  "duration": 101431501,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 158115,
+  "duration": 100543,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 6700560295,
+  "duration": 1654035102,
   "status": "passed"
 });
 formatter.background({
@@ -293,7 +293,7 @@ formatter.match({
   "location": "Chapter_1_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 4472455002,
+  "duration": 5029727344,
   "status": "passed"
 });
 formatter.scenario({
@@ -334,28 +334,28 @@ formatter.match({
   "location": "Chapter_1_Webelements.click_on_the_Chapter1_page()"
 });
 formatter.result({
-  "duration": 560149505,
+  "duration": 594281236,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Click_on_the_radio_button()"
 });
 formatter.result({
-  "duration": 281009893,
+  "duration": 285493556,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 177380,
+  "duration": 208160,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_1_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 641865225,
+  "duration": 736261266,
   "status": "passed"
 });
 formatter.uri("feature/Chapter2.feature");
@@ -388,7 +388,7 @@ formatter.match({
   "location": "Chapter_2_Webelements.Create_driver_instance_and_open_the_browser()"
 });
 formatter.result({
-  "duration": 4520290072,
+  "duration": 6753317632,
   "status": "passed"
 });
 formatter.scenario({
@@ -429,28 +429,28 @@ formatter.match({
   "location": "Chapter_2_Webelements.click_on_the_Chapter2_page()"
 });
 formatter.result({
-  "duration": 3440923305,
+  "duration": 3634974965,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_2_Webelements.Check_if_it_is_enabled_or_not_and_click_on_the_button()"
 });
 formatter.result({
-  "duration": 281154672,
+  "duration": 323909697,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_2_Webelements.Check_if_the_element_is_found_or_not()"
 });
 formatter.result({
-  "duration": 224095,
+  "duration": 235302,
   "status": "passed"
 });
 formatter.match({
   "location": "Chapter_2_Webelements.close_the_browser()"
 });
 formatter.result({
-  "duration": 1662619404,
+  "duration": 2332181452,
   "status": "passed"
 });
 });
