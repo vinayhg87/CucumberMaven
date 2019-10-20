@@ -33,9 +33,7 @@ public class ExcelData {
         try
         {
             Workbook wb = WorkbookFactory.create(new FileInputStream(ExcelFile));
-            Sheet sh = wb.getSheet(sheetname);
-            Row rw = sh.getRow(rownum);
-            Cell ce = rw.getCell(cellnum);
+            Cell ce = wb.getSheet(sheetname).createRow(rownum).createCell(cellnum);
             ce.setCellValue(Data);
             FileOutputStream fwrite = new FileOutputStream(ExcelFile);
             wb.write(fwrite);
