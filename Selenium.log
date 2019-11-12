@@ -1763,3 +1763,7 @@ INFO    2019-10-20 21:52:33,337 [main] Chapter_2_Webelements  - opening URL http
 INFO    2019-10-20 21:52:37,872 [main] Chapter_2_Webelements  - Clicking Chapter2 link
 INFO    2019-10-20 21:52:38,154 [main] Chapter_2_Webelements  - element found and test case passed
 INFO    2019-10-20 21:52:38,155 [main] Chapter_2_Webelements  - Closing the driver
+INFO    2019-11-05 12:00:58,335 [main] Chapter_1_Webelements  - Execution started with session-id : 729
+INFO    2019-11-05 12:00:58,351 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/
+INFO    2019-11-05 12:01:03,170 [main] Chapter_1_Webelements  - Execution started with session-id : 193
+INFO    2019-11-05 12:01:03,170 [main] Chapter_1_Webelements  - opening URL http://book.theautomatedtester.co.uk/

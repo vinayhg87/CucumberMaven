@@ -55,9 +55,9 @@ public class Chapter_1_Webelements {
 		//scr.GetScreenShot(driver, "Chapter1_main_Screen_"+sessionID);
 		webelement.Chapter1_link.click();
 		log.info("Clicking Chapter1 link");
-		String DBvalue = db.connectDB("select lastname from persons where personid = 1");
-		System.out.println("DB value is "+DBvalue);
-		log.info("DB value is "+DBvalue);
+		//String DBvalue = db.connectDB("select lastname from persons where personid = 1");
+		//System.out.println("DB value is "+DBvalue);
+		//log.info("DB value is "+DBvalue);
 	}
 	
 	
